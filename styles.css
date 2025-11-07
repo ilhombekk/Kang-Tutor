@@ -1,0 +1,398 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />margin: 0;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html,
+body,
+.wrapper {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserat", sans-serif;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1165px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header start  */
+
+.header {
+    padding: 16px 0;
+    background-color: #02a28f;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-nav-item {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.header-nav-item:hover {
+    color: black;
+}
+
+.header-nav-item:active {
+    color: rgb(62, 59, 59);
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+/* header end  */
+
+/* Banner  */
+
+.banner {
+    margin-top: 50px;
+}
+
+.banner-wrap {
+    display: flex;
+    gap: 24px;
+}
+
+.banner-left {
+    width: 65%;
+    height: 472px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    background: #c6bcbc;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner-left-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+}
+
+.banner-left-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    margin: 0;
+}
+
+.banner-left-auther {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+}
+
+.banner-left-auther span {
+    font-weight: 700;
+}
+
+.banner-right {
+    width: 35%;
+}
+
+.banner-right-title-wrap {
+    border-radius: 10px;
+    background-color: #02a28f;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 12px;
+}
+
+.banner-right-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-article-wrap {}
+
+.banner-article {
+    height: 100px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.banner-article-img {
+    width: 40%;
+    height: 100%;
+    background: #d9d9d9;
+    border-radius: 10px;
+}
+
+.banner-article-content {}
+
+.banner-article-title {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+
+.banner-article-subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    color: #616161;
+}
+
+.banner-2 {
+    margin-top: 24px;
+}
+
+.banner-2-top {
+    width: 744px;
+    height: 48px;
+    display: flex;
+    border-radius: 10px;
+    background: #02a28f;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-2-h1 {}
+
+.banner-2-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.banner-2-subtitle {}
+
+.banner-2-text {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    text-align: right;
+}
+
+.element {
+    margin-top: 20px;
+    display: flex;
+    gap: 47px;
+}
+
+.element-left {
+    border-radius: 10px;
+    width: 360px;
+    height: 396px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.element-left-img {
+    border-radius: 10px;
+    width: 360px;
+    height: 191px;
+    background: #d9d9d9;
+}
+
+.element-left-buttom {
+    margin-bottom: 40px;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
+.In-Label {
+    font-weight: 400;
+    font-size: 14px;
+    color: #02a28f;
+}
+
+.element-button-h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.element-button-p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #616161;
+}
+
+.element-button-p span {
+    font-weight: 700;
+}
+
+.element-lorem {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.element-chislo {
+    font-weight: 500;
+    font-size: 14px;
+    color: #616161;
+}
+
+.element-right {
+    border-radius: 10px;
+    width: 360px;
+    height: 396px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.element-right-img {
+    border-radius: 10px;
+    width: 360px;
+    height: 191px;
+    background: #d9d9d9;
+}
+
+.element-right-buttom {
+    margin-bottom: 40px;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
+.element-right-in-label {
+    font-weight: 400;
+    font-size: 14px;
+    color: #02a28f;
+}
+
+.element-right-button-h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.element-right-button-p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #616161;
+}
+
+.element-right-button-p span {
+    font-weight: 700;
+}
+
+.element-right-lorem {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.element-right-chislo {
+    font-weight: 500;
+    font-size: 14px;
+    color: #616161;
+}
+
+/* Footer  */
+
+.footer {
+    background: #02a28f;
+    margin-top: 60px;
+}
+
+.footer-wrap {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+}
+
+.banner-2-right {
+    display: flex;
+    justify-content: right;
+    margin-top: -71px;
+
+}
+
+.kotegoriya {
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 360px;
+    height: 48px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    background: #02a28f;
+    padding: 10px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-2-right-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-left: 784px;
+    justify-content: space-between;
+}
+
+.banner-text1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #616161;
+
+}
+
+.banner-text1-p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #616161;
+
+}
