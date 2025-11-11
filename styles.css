@@ -1,5 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet"
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 * {
     margin: 0;
@@ -43,6 +42,9 @@ button {
 .header {
     padding: 16px 0;
     background-color: #02a28f;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .header-wrap {
@@ -89,7 +91,7 @@ button {
 /* Banner  */
 
 .banner {
-    margin-top: 50px;
+    margin-top: 125px;
 }
 
 .banner-wrap {
@@ -349,7 +351,7 @@ button {
     font-size: 14px;
     color: #fff;
     text-align: center;
-    padding: 3px;
+    padding: 15px;
 }
 
 .banner-2-right {
@@ -520,7 +522,9 @@ button {
     padding: 12px;
 }
 
-.products-right-lebel {}
+.products-right-lebel {
+    margin-top: 23px;
+}
 
 .products-ringt-lebel-text {
     display: flex;
